@@ -1,0 +1,23 @@
+{
+  "bf87e2a2367852016de5830a8c27cf0a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7187d0139f7e2d42",
+      "reportUrl" : "https://venkatqa9.github.io/allure_cucumber_testing/1//#testresult/7187d0139f7e2d42",
+      "status" : "passed",
+      "statusDetails" : "Undefined Step. Please add step definition",
+      "time" : {
+        "start" : 1608170117846,
+        "stop" : 1608170117979,
+        "duration" : 133
+      }
+    } ]
+  }
+}

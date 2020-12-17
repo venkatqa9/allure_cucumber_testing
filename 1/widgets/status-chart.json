@@ -1,0 +1,11 @@
+[ {
+  "uid" : "7187d0139f7e2d42",
+  "name" : "This scenario will test user creation process on the application",
+  "time" : {
+    "start" : 1608170117846,
+    "stop" : 1608170117979,
+    "duration" : 133
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

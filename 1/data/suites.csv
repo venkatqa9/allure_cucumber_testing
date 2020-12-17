@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Dec 17 01:55:17 GMT 2020","Thu Dec 17 01:55:17 GMT 2020","133","","This feature is designed to validate the behaviour of regsitartion module","","This scenario will test user creation process on the application","","This scenario will test user creation process on the application",""

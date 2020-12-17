@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "DESKTOP-KR4B5KR",
+    "children" : [ {
+      "name" : "1256@DESKTOP-KR4B5KR.main(1)",
+      "children" : [ {
+        "name" : "This scenario will test user creation process on the application",
+        "uid" : "7187d0139f7e2d42",
+        "parentUid" : "dfffad918c3cd9fdc04f02d0cacddc95",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608170117846,
+          "stop" : 1608170117979,
+          "duration" : 133
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dfffad918c3cd9fdc04f02d0cacddc95"
+    } ],
+    "uid" : "f8ff97278afbcf60e4e6132f1c45daad"
+  } ],
+  "name" : "timeline"
+}

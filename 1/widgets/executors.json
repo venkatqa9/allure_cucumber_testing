@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://venkatqa9.github.io/allure_cucumber_testing",
+  "buildOrder" : 1,
+  "buildName" : "GitHub Actions Run #429146112",
+  "buildUrl" : "https://github.com/venkatqa9/allure_cucumber_testing/actions/runs/429146112",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://venkatqa9.github.io/allure_cucumber_testing/1/"
+} ]

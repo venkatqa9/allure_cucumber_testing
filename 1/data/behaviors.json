@@ -1,0 +1,26 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "This feature is designed to validate the behaviour of regsitartion module",
+    "children" : [ {
+      "name" : "This scenario will test user creation process on the application",
+      "children" : [ {
+        "name" : "This scenario will test user creation process on the application",
+        "uid" : "7187d0139f7e2d42",
+        "parentUid" : "a36f757beb3e42413c0d382dff9bd20d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608170117846,
+          "stop" : 1608170117979,
+          "duration" : 133
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a36f757beb3e42413c0d382dff9bd20d"
+    } ],
+    "uid" : "d84a11a110de24abb3114c309e964b49"
+  } ],
+  "name" : "behaviors"
+}
