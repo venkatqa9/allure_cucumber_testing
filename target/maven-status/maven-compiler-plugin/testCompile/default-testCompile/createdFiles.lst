@@ -1,0 +1,5 @@
+com\resourceproperties\Resources.class
+io\qameta\allure\examples\cucumber5\CucumberTest.class
+com\stepdefinitions\HomePageDefinitions.class
+runner\CucumberRunnerClass.class
+com\frameworkutils\WebUtilities.class
