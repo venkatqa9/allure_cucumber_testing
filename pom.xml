@@ -52,6 +52,18 @@
             <artifactId>selenium-java</artifactId>
             <version>3.141.59</version>
         </dependency>
+        <dependency>
+            <groupId>com.github.javafaker</groupId>
+            <artifactId>javafaker</artifactId>
+            <version>1.0.2</version>
+                   </dependency>
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>4.2.2</version>
+
+        </dependency>
+
 
     </dependencies>
 
@@ -78,6 +90,28 @@
                         <artifactId>aspectjweaver</artifactId>
                         <version>${aspectj.version}</version>
                     </dependency>
+                    <!-- https://mvnrepository.com/artifact/net.masterthought/maven-cucumber-reporting -->
+                    <dependency>
+                        <groupId>net.masterthought</groupId>
+                        <artifactId>maven-cucumber-reporting</artifactId>
+                        <version>5.4.0</version>
+                    </dependency>
+                    <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
+                    <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
+                    <dependency>
+                        <groupId>com.github.javafaker</groupId>
+                        <artifactId>javafaker</artifactId>
+                        <version>0.15</version>
+                    </dependency>
+
+                    <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+                    <dependency>
+                        <groupId>io.github.bonigarcia</groupId>
+                        <artifactId>webdrivermanager</artifactId>
+                        <version>4.2.2</version>
+                    </dependency>
+
+
                 </dependencies>
             </plugin>
 

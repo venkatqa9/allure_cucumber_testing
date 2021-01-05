@@ -1,5 +1,12 @@
 com\resourceproperties\Resources.class
-io\qameta\allure\examples\cucumber5\CucumberTest.class
+com\stepdefinitions\TestOutline.class
+com\applicationpages\AutoPractice.class
+com\applicationobjects\AutoPracticeOr.class
 com\stepdefinitions\HomePageDefinitions.class
 runner\CucumberRunnerClass.class
+com\frameworkutils\Test.class
 com\frameworkutils\WebUtilities.class
+com\frameworkutils\FakerData.class
+com\applicationobjects\CreateAccountOr.class
+com\applicationpages\CreateAccount.class
+com\frameworkutils\TestingPractice.class

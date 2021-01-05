@@ -6,6 +6,7 @@ public enum Resources {
     JSONDATA("src/main/resources/testdata/Testdata.json");
     String value;
     Resources(String value) {
+
         this.value=value;
     }
     public String getValue()

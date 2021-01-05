@@ -14,9 +14,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import java.io.ByteArrayInputStream;
 
 public class WebUtilities {
-    WebDriver driver=null;
+    public static WebDriver driver=null;
     @Step("Launching browser")
-    protected WebDriver launchBrowser(String browser,String url) throws Exception {
+    protected static WebDriver launchBrowser(String browser, String url) throws Exception {
 
         switch (browser.toLowerCase()){
 
@@ -34,7 +34,7 @@ public class WebUtilities {
     }
         driver.manage().window().maximize();
         driver.get(url);
-        getScreenShot();
+        //driver.addScreenshot();
         return driver;
     }
 

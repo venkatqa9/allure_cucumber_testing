@@ -4,6 +4,7 @@ Feature: This feature is designed to validate the behaviour of regsitartion modu
     |URL|
     |https://demo.nopcommerce.com/|
     Then verify home page is displayed
+
     Then click on new user link
     And  verify user is navigated to registration page
     Then fill the registration form
