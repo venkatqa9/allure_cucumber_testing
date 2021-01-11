@@ -14,7 +14,6 @@ import io.cucumber.testng.CucumberOptions;
         glue={"com.stepdefinitions"},
         plugin = {"pretty", "html:target\\cucumber-reports"},
         tags = {"@smoketest"},
-
         monochrome =true
 
 )

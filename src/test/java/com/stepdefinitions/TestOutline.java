@@ -1,5 +1,5 @@
 package com.stepdefinitions;
-
+import org.testng.asserts.Assertion;
 import com.applicationobjects.AutoPracticeOr;
 import com.applicationobjects.CreateAccountOr;
 import com.frameworkutils.FakerData;
@@ -10,6 +10,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+
 
 public class TestOutline extends WebUtilities {
 
@@ -144,13 +145,22 @@ public class TestOutline extends WebUtilities {
 
     @Then("check for title message {string}")
     public void checkForMessage(String title) throws InterruptedException {
-        if (driver.getPageSource().contains(title)) {
-            //  Assert.assertEquals(title,driver.getPageSource());
-            Thread.sleep(10000);
-            System.out.println("Test is Pass !!!");
-        } else {
-            System.out.println("Test is fail !!!");
-        }
+
+        Thread.sleep(1000);
+        String actual=driver.getTitle();
+       // if (driver.getPageSource().contains(title)) {
+        Assert.assertEquals(actual,title);
+        //Assert.assertEquals(actual,title.contains(actual));
+        System.out.println("Test is Pass !!!");
+//        Assert.assertNotEquals(driver.getPageSource(),title);
+//        System.out.println("Test is Fail !!!");
+//            //Assert.
+//            //  Assert.assertEquals(title,driver.getPageSource());
+//            Thread.sleep(10000);
+//            System.out.println("Test is Pass !!!");
+//        } else {
+//            System.out.println("Test is fail !!!");
+//        }
     }
 
 
