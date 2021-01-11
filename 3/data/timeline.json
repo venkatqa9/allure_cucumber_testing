@@ -1,0 +1,64 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "DESKTOP-KR4B5KR",
+    "children" : [ {
+      "name" : "19072@DESKTOP-KR4B5KR.TestNG-test=Regression1-1(13)",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "ecabaa2388a805ec",
+        "parentUid" : "e5c47bd3e0103a61bfbb28e304b1b915",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610222889527,
+          "stop" : 1610223009385,
+          "duration" : 119858
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"Create new with different data\"", "\"Create a new user\"" ]
+      } ],
+      "uid" : "e5c47bd3e0103a61bfbb28e304b1b915"
+    }, {
+      "name" : "10900@DESKTOP-KR4B5KR.TestNG-test=Regression1-1(13)",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "7f0423848a86764c",
+        "parentUid" : "571f41d31b7acf7ed5e74ebea55756cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610223402996,
+          "stop" : 1610223519806,
+          "duration" : 116810
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"Create new with different data\"", "\"Create a new user\"" ]
+      } ],
+      "uid" : "571f41d31b7acf7ed5e74ebea55756cb"
+    } ],
+    "uid" : "f8ff97278afbcf60e4e6132f1c45daad"
+  }, {
+    "name" : "fv-az56-539",
+    "children" : [ {
+      "name" : "4130@fv-az56-539.TestNG-test=Regression1-1(12)",
+      "children" : [ {
+        "name" : "setUpClass",
+        "uid" : "523adb770df2d14f",
+        "parentUid" : "926884ac524104c2f594fb1e478ec46d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610330686146,
+          "stop" : 1610330686148,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "926884ac524104c2f594fb1e478ec46d"
+    } ],
+    "uid" : "4c89586eb8570cd4e8415687a630c319"
+  } ],
+  "name" : "timeline"
+}

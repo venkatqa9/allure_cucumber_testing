@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "path must exist: /home/runner/work/allure_cucumber_testing/allure_cucumber_testing/src\\test\\resources\\features\\UserResgistration_New.feature",
+      "children" : [ {
+        "name" : "setUpClass",
+        "uid" : "523adb770df2d14f",
+        "parentUid" : "82abbb3036b7856d3908aab8c157fde7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610330686146,
+          "stop" : 1610330686148,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "82abbb3036b7856d3908aab8c157fde7"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

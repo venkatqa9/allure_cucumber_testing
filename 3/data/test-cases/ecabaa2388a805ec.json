@@ -1,0 +1,129 @@
+{
+  "uid" : "ecabaa2388a805ec",
+  "name" : "Runs Cucumber Scenarios",
+  "fullName" : "io.cucumber.testng.AbstractTestNGCucumberTests.runScenario",
+  "historyId" : "265e2cbd6d6f73409fad07de06144e1c",
+  "time" : {
+    "start" : 1610222889527,
+    "stop" : 1610223009385,
+    "duration" : 119858
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1610222886946,
+      "stop" : 1610222889215,
+      "duration" : 2269
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Launching browser",
+      "time" : {
+        "start" : 1610222890761,
+        "stop" : 1610222912560,
+        "duration" : 21799
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "browser",
+        "value" : "chrome"
+      }, {
+        "name" : "url",
+        "value" : "http://automationpractice.com/index.php"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1610223009917,
+      "stop" : 1610223010369,
+      "duration" : 452
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "runner.CucumberRunnerClass"
+  }, {
+    "name" : "testClass",
+    "value" : "runner.CucumberRunnerClass"
+  }, {
+    "name" : "testMethod",
+    "value" : "runScenario"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite1"
+  }, {
+    "name" : "suite",
+    "value" : "Regression1"
+  }, {
+    "name" : "subSuite",
+    "value" : "runner.CucumberRunnerClass"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KR4B5KR"
+  }, {
+    "name" : "thread",
+    "value" : "19072@DESKTOP-KR4B5KR.TestNG-test=Regression1-1(13)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "\"Create new with different data\""
+  }, {
+    "name" : "arg1",
+    "value" : "\"Create a new user\""
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ecabaa2388a805ec.json",
+  "parameterValues" : [ "\"Create new with different data\"", "\"Create a new user\"" ]
+}

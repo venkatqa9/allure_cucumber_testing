@@ -1,0 +1,71 @@
+{
+  "uid" : "523adb770df2d14f",
+  "name" : "setUpClass",
+  "fullName" : "io.cucumber.testng.AbstractTestNGCucumberTests.setUpClass",
+  "historyId" : "7d1379b32c416327084a992c93aac3e9",
+  "time" : {
+    "start" : 1610330686146,
+    "stop" : 1610330686148,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "statusMessage" : "path must exist: /home/runner/work/allure_cucumber_testing/allure_cucumber_testing/src\\test\\resources\\features\\UserResgistration_New.feature",
+  "statusTrace" : "java.lang.IllegalArgumentException: path must exist: /home/runner/work/allure_cucumber_testing/allure_cucumber_testing/src\\test\\resources\\features\\UserResgistration_New.feature\n\tat io.cucumber.core.resource.PathScanner.findResourcesForPath(PathScanner.java:42)\n\tat io.cucumber.core.resource.PathScanner.findResourcesForUri(PathScanner.java:26)\n\tat io.cucumber.core.resource.ResourceScanner.findResourcesForUri(ResourceScanner.java:109)\n\tat io.cucumber.core.resource.ResourceScanner.scanForResourcesUri(ResourceScanner.java:86)\n\tat io.cucumber.core.runtime.FeaturePathFeatureSupplier.loadFeatures(FeaturePathFeatureSupplier.java:61)\n\tat io.cucumber.core.runtime.FeaturePathFeatureSupplier.get(FeaturePathFeatureSupplier.java:45)\n\tat io.cucumber.testng.TestNGCucumberRunner.<init>(TestNGCucumberRunner.java:114)\n\tat io.cucumber.testng.AbstractTestNGCucumberTests.setUpClass(AbstractTestNGCucumberTests.java:22)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)\n\tat org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "runner.CucumberRunnerClass"
+  }, {
+    "name" : "testClass",
+    "value" : "runner.CucumberRunnerClass"
+  }, {
+    "name" : "testMethod",
+    "value" : "setUpClass"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite1"
+  }, {
+    "name" : "suite",
+    "value" : "Regression1"
+  }, {
+    "name" : "subSuite",
+    "value" : "runner.CucumberRunnerClass"
+  }, {
+    "name" : "host",
+    "value" : "fv-az56-539"
+  }, {
+    "name" : "thread",
+    "value" : "4130@fv-az56-539.TestNG-test=Regression1-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "AS_ID",
+    "value" : "-1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "523adb770df2d14f.json",
+  "parameterValues" : [ ]
+}

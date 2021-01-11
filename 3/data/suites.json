@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Suite1",
+    "children" : [ {
+      "name" : "Regression1",
+      "children" : [ {
+        "name" : "runner.CucumberRunnerClass",
+        "children" : [ {
+          "name" : "Runs Cucumber Scenarios",
+          "uid" : "7f0423848a86764c",
+          "parentUid" : "49a701f2451e5f4eae1decfc90ae1d50",
+          "status" : "passed",
+          "time" : {
+            "start" : 1610223402996,
+            "stop" : 1610223519806,
+            "duration" : 116810
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "\"Create new with different data\"", "\"Create a new user\"" ]
+        }, {
+          "name" : "setUpClass",
+          "uid" : "523adb770df2d14f",
+          "parentUid" : "49a701f2451e5f4eae1decfc90ae1d50",
+          "status" : "broken",
+          "time" : {
+            "start" : 1610330686146,
+            "stop" : 1610330686148,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "49a701f2451e5f4eae1decfc90ae1d50"
+      } ],
+      "uid" : "9cafb56c228ad58fcad13f0f9a7de8cc"
+    } ],
+    "uid" : "1b55da8b4eccbbb6df84e16f476662eb"
+  } ],
+  "name" : "suites"
+}

@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "runner.CucumberRunnerClass",
+    "children" : [ {
+      "name" : "runScenario",
+      "uid" : "7f0423848a86764c",
+      "parentUid" : "3ec5aab2bcf498bd187ab5554af69151",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610223402996,
+        "stop" : 1610223519806,
+        "duration" : 116810
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "\"Create new with different data\"", "\"Create a new user\"" ]
+    }, {
+      "name" : "setUpClass",
+      "uid" : "523adb770df2d14f",
+      "parentUid" : "3ec5aab2bcf498bd187ab5554af69151",
+      "status" : "broken",
+      "time" : {
+        "start" : 1610330686146,
+        "stop" : 1610330686148,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "runner.CucumberRunnerClass"
+  } ],
+  "name" : "packages"
+}
